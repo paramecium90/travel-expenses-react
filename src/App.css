@@ -1,0 +1,165 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.App{
+  /* width: 95vw; */
+  max-width: 350px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 30px;
+  min-height: 500px;
+}
+
+.person--container {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin: 3px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  padding-left: 5px;
+  overflow-wrap: break-word;
+}
+
+.person--container >h3 {
+  overflow-wrap: break-word;
+}
+
+/* .--container {
+  padding: 25px;
+} */
+
+.trip--name{
+  width: 200px;
+  height: 40px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  box-shadow:  2px 6px 0 rgba(23, 23, 23, 0.32);
+  margin-bottom: 5px;
+}
+
+.new--person {
+  border: none;
+  height: 50px;  
+  width: 163px;
+  font-size: 1.5rem;
+
+}
+
+img {
+  width: 20px;
+  margin-right: 7px;
+}
+
+.activity--container{
+display: flex;
+justify-content: space-between;
+width: 300px;
+background-color: aquamarine;
+height: 70px;
+padding-right:15px;
+padding-left: 15px;
+margin: 4px;
+border-radius:5px
+}
+
+.activity{
+  margin-top:3px;
+  font-size: larger;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.activity--name {
+  font-weight: 700;
+}
+
+.activity--amount {
+color: grey;
+}
+
+
+.activity--paidBy {grid-area: paidBy;}
+
+.delete--btn{
+margin: auto;
+}
+
+
+.activity--form{
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+select{
+  width: 200px;
+  height: 40px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 2px 6px 0 rgba(23, 23, 23, 0.32);
+  margin-bottom: 5px;
+}
+
+.price {
+  width: 100px;
+  display: grid;
+  place-content: center;
+}
+
+.calculate {
+  width: 100%;
+  box-shadow: 2px 6px 0 rgba(23, 23, 23, 0.32);
+}
+
+.calculate:active {
+  background-color: red;
+  transform: translate(3px, 3px);
+}
+
+.accept--btn{
+  width: 900px;
+}
+
+.add-person{
+  display: grid;
+  place-content: center;
+  background-color: rgb(71, 230, 71);
+  width: 60px;
+  margin: 4px;
+  border-radius: 5px;
+  transition-duration:0.4s;
+    }
+
+.add-person:hover {
+  background-color: green;
+}
+
+
+.next {
+  height: 40px;
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+}   
+
+
+.next:hover {
+  background-color: green;
+}
+.add {
+  width: 90px;
+} 
