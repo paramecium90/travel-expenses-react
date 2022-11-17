@@ -1,5 +1,5 @@
 Manage your expenses of a trip with your friends.
 
-demo: https://taupe-lolly-9760a1.netlify.app
+demo: https://cozy-beijinho-87716c.netlify.app
 
 The app is functional but not complete
